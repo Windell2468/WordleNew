@@ -9,7 +9,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
-    private val fourLetterWordList = listOf("Fork", "ball", "peak") // Add more words as needed
+    private val fourLetterWordList = listOf("Fork", "Ball", "Peak") // Add more words as needed
     private var currentGuess = 0 // Track the current guess
 
     override fun onCreate(savedInstanceState: Bundle?) {
